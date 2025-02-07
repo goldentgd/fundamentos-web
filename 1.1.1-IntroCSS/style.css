@@ -1,0 +1,23 @@
+h1{
+    color: blueviolet;
+}
+button{
+    width: 35px;
+}
+
+.primary-btn{
+    background-color: royalblue;
+    color: white;
+}
+.secondary-btn{
+    background-color: purple;
+    color: black;
+}
+#main-logo{
+    background-color: royalblue;
+    padding: 2px;
+    color: white;
+}
+#special-title{
+    color: crimson;
+}
