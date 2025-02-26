@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+}
+h1{
+    font-size: 1rem;
+}
+div{
+    font-size: 40px;
+}
+p{
+    font-size: 1.5rem;
+}
+.rojo{
+    background-color: rgb(221, 36, 45);
+    width: 100vw;
+    height: calc(100vh/3);
+}
+.azul{
+    background-color: rgb(55, 119, 238);
+    width: 100vw;
+    height: 33.33333vh;
+}
+.amarillo{
+    background-color: rgba(163, 163, 9, 0.849);
+    width: 100vw;
+    height: 33.33333vh;
+}
+@media only screen and (max-width: 1200px){
+    .rojo{
+        background-color: rgb(221, 36, 45);
+        width: 100vw;
+        height: 100vh;
+    }
+    .azul{
+        background-color: rgb(55, 119, 238);
+        width: 100vw;
+        height: 100vh;
+    }
+    .amarillo{
+        background-color: rgba(163, 163, 9, 0.849);
+        width: 100vw;
+        height: 100vh;
+    }
+    
+}
+@media only screen and (max-width: 700px){
+    .rojo{
+        background-color: rgb(31, 233, 65);
+        width: 100vw;
+        height: 100vh;
+    }
+    .azul{
+        background-color: rgb(238, 55, 168);
+        width: 100vw;
+        height: 100vh;
+    }
+    .amarillo{
+        background-color: rgba(212, 104, 15, 0.849);
+        width: 100vw;
+        height: 100vh;
+    }
+}
+@media only screen and (max-width: 400px){
+    .rojo{
+        background-color: rgb(190, 11, 235);
+        width: 100vw;
+        height: 100vh;
+    }
+    .azul{
+        background-color: rgb(232, 245, 116);
+        width: 100vw;
+        height: 100vh;
+    }
+    .amarillo{
+        background-color: rgba(20, 58, 230, 0.849);
+        width: 100vw;
+        height: 100vh;
+    }
+}
