@@ -36,8 +36,8 @@ footer{
 }
 .search-form{
     display: flex;
-    gap: 1rem;
-    width: 40%;
+    gap: 0.5rem;
+    width: 35%;
 }
 .search-form input{
     padding: 0.5rem 1rem;
